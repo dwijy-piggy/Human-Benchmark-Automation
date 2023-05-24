@@ -1,6 +1,6 @@
 javascript: document.getElementsByClassName("css-de05nr e19owgy710")[0].dispatchEvent(new Event('mousedown', {bubbles:true}));
 target = parseInt(prompt("Enter your desired score: "));
-if(target > 0){
+if(target){
     var x = new MutationObserver((ml) => {
         for (const m of ml) {
             if(m.target == document.getElementsByClassName("css-dd6wi1")[0].childNodes[1].childNodes[0]){
