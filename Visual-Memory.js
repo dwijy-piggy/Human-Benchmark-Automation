@@ -1,4 +1,4 @@
-javascript: document.getElementsByClassName("css-de05nr e19owgy710")[0].dispatchEvent(new Event('mousedown', {bubbles:true}));;
+javascript: document.getElementsByClassName("css-de05nr e19owgy710")[0].dispatchEvent(new Event('mousedown', {bubbles:true}));
 target = parseInt(prompt("Enter your desired score: "));
 if(target > 0){
     var x = new MutationObserver((ml) => {
